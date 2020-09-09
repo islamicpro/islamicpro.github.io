@@ -1,0 +1,1 @@
+$(function(){$("ul.navbar-nav > li > a").each(function(){if(-1<window.location.pathname.indexOf($(this).attr("href")))return $(this).closest("li").addClass("active"),!1})});

@@ -1,0 +1,1 @@
+$(function(){var e=Date.now()-1597285807768,t=94418309+Math.ceil(Math.ceil(e/1e3)*(1e6/1036800)),a=new Odometer({el:$(".odometer")[0],format:"(,ddd)",theme:"car",value:t});a.render(),setInterval(function(){t+=function(e,t){return e=Math.ceil(e),t=Math.floor(t),Math.floor(Math.random()*(t-e+1))+e}(1,2),a.update(t)},5e3)});
